@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // fetch data from server
-  const response = await fetch('https://chatgtpweb.vercel.app', {
+  const response = await fetch('https://hv-open-ai-chatgtp.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
