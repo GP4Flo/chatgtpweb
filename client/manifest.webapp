@@ -1,23 +1,19 @@
-	{
-	    "version": "0.0.1",
-	    "name": "ChatGTP",
-		"subtitle": "Your personal assistant for KaiOS",
-	    "description": "A personal assistant based on the GTP-3 artifical intelligence (AI)."
-	        "name": "Florian Jesse",
-	        "url": "https://chatgtpweb.vercel.app/"
-	    },
-	    "permissions": {
-			"mobiledata":{},
-			"wifidata":{}
-	    },
-		"locales":{
-				"en-US":{
-				"name":"ChatGTP",
-				"description":"A personal assistant based on the GTP-3 artifical intelligence (AI).",
-				"subtitle": "Your personal assistant for KaiOS"
-			}
-		},
-		"default_locale": "en-US"
-		}
-  		}
-	}
+{
+  "version": "0.0.1",
+  "name": "ChatGTP",
+  "description": "A ChatGTP app",
+  "type": "web",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Florian Jesse",
+    "url": "https://chatgtpweb.vercel.app/"
+  },
+  "locales": {
+    "en-US": {
+      "name": "ChatGTP",
+      "subtitle": "A ChatGTP app",
+      "description": "A ChatGTP app"
+    }
+  },
+  "default_locale": "en-US"
+}
